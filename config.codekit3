@@ -12,79 +12,15 @@
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/build\/bower-min.json",
+		"oAP": "\/docs\/bower-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/reset-css\/.bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/build\/bower_components\/reset-css\/.bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/reset-css\/_reset.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/reset-css\/_reset.scss",
-		"oF": 0,
-		"oS": 2,
-		"uL": 1
-		},
-	"\/bower_components\/reset-css\/bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/build\/bower_components\/reset-css\/bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/reset-css\/package.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/build\/bower_components\/reset-css\/package.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/reset-css\/reset.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/build\/bower_components\/reset-css\/reset.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/bower_components\/reset-css\/reset.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 2,
-		"oAP": "\/build\/bower_components\/reset-css\/reset.less",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/build": {
+	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/build",
+		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
 	"\/player-vertical.coffee": {
@@ -92,7 +28,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/player-vertical.js",
+		"oAP": "\/docs\/player-vertical.js",
 		"oF": 0,
 		"oS": 0,
 		"sC": 1
@@ -102,7 +38,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/player.js",
+		"oAP": "\/docs\/player.js",
 		"oF": 0,
 		"oS": 0,
 		"sC": 1
@@ -110,7 +46,7 @@
 	"\/player.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/player.html",
+		"oAP": "\/docs\/player.html",
 		"oF": 0
 		},
 	"\/player.scss": {
@@ -121,7 +57,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/player.css",
+		"oAP": "\/docs\/player.css",
 		"oF": 0,
 		"oS": 2,
 		"uL": 1
@@ -136,7 +72,7 @@
 	"displayValue": "blackenterprise",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 521459239
+	"lastBuiltDate": 521469222
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -392,7 +328,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 1,
-	"buildFolderName": "build",
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2244,7 +2180,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": "\/docs"
 	},
 "settingsFileVersion": "3"
 }
