@@ -23,6 +23,12 @@
 		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/index.html",
+		"oF": 0
+		},
 	"\/player-vertical.coffee": {
 		"ft": 32,
 		"ma": 0,
@@ -32,6 +38,12 @@
 		"oF": 0,
 		"oS": 0,
 		"sC": 1
+		},
+	"\/player-vertical.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/player-vertical.html",
+		"oF": 0
 		},
 	"\/player.coffee": {
 		"ft": 32,
