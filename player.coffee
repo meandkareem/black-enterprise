@@ -1,8 +1,7 @@
 do ->
   apiRoute = 'https://cdn.jwplayer.com/v2/playlists/'
   feeds = [
-    'Q352cyuc'
-    'oR7ahO0J'
+    'EPKHydfq'
   ]
   playlistsTemplate = $('#js-playlist-template').html()
   playerInstance = undefined

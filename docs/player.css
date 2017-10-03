@@ -1,8 +1,7 @@
-/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section { display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
 body { line-height: 1; }
 
@@ -42,17 +41,17 @@ h1 { color: #000; font-family: 'Montserrat', sans-serif; font-weight: 700; }
 
 .playlist { list-style: none; }
 
-.playlist-link { -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-image: linear-gradient(to bottom, #456072 0%, #1a3444 100%); color: #FFF; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; font-size: 0.85rem; font-weight: 500; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 0.5rem; text-align: center; z-index: 1; }
+.playlist-link { -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-image: -webkit-gradient(linear, left top, left bottom, from(#456072), to(#1a3444)); background-image: linear-gradient(to bottom, #456072 0%, #1a3444 100%); color: #FFF; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; font-size: 0.85rem; font-weight: 500; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 0.5rem; text-align: center; z-index: 1; }
 
-.playlist-link.is-active { background-image: linear-gradient(to bottom, #456072 0%, #1a3444 10%); }
+.playlist-link.is-active { background-image: -webkit-gradient(linear, left top, left bottom, from(#456072), color-stop(10%, #1a3444)); background-image: linear-gradient(to bottom, #456072 0%, #1a3444 10%); }
 
 .playlist-item { -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #FFF; display: -webkit-box; display: -ms-flexbox; display: flex; line-height: 1.2; padding: 0.7rem; }
 
-.playlist-item.is-playing { background: #456072; background: linear-gradient(to bottom, #456072 0%, #1a3444 100%); }
+.playlist-item.is-playing { background: #456072; background: -webkit-gradient(linear, left top, left bottom, from(#456072), to(#1a3444)); background: linear-gradient(to bottom, #456072 0%, #1a3444 100%); }
 
 .playlist-item:not(.is-playing):hover { background-color: #252525; }
 
-.playlist-item img { background-color: #000; box-shadow: 0 0 1px #000; height: 5.625rem; margin-right: 1rem; -o-object-fit: contain; object-fit: contain; -o-object-position: 50% 50%; object-position: 50% 50%; width: 8rem; }
+.playlist-item img { background-color: #000; -webkit-box-shadow: 0 0 1px #000; box-shadow: 0 0 1px #000; height: 5.625rem; margin-right: 1rem; -o-object-fit: contain; object-fit: contain; -o-object-position: 50% 50%; object-position: 50% 50%; width: 8rem; }
 
 @media screen and (min-width: 768px) { .overflow-wrapper { height: 0; padding: 0 0 45%; position: relative; }
   .demo-wrapper { height: 100%; position: absolute; top: 0; }
