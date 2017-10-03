@@ -24,7 +24,7 @@
 	"\/player-vertical.coffee": {
 		"ft": 32,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/dist\/player-vertical.js",
 		"oF": 0,
@@ -40,7 +40,7 @@
 	"\/player.coffee": {
 		"ft": 32,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/dist\/player.js",
 		"oF": 0,
@@ -76,7 +76,7 @@
 	"displayValue": "blackenterprise",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 528727047
+	"lastBuiltDate": 528727394
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1826,7 +1826,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
@@ -1882,7 +1882,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"syntaxCheckerStyle": 1,
 		"transpilerStyle": 0
 		},
