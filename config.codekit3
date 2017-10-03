@@ -12,13 +12,13 @@
 	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/dist\/docs",
+		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/index.html",
+		"oAP": "\/docs\/index.html",
 		"oF": 0
 		},
 	"\/player-vertical.coffee": {
@@ -26,7 +26,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "\/dist\/player-vertical.js",
+		"oAP": "\/docs\/player-vertical.js",
 		"oF": 0,
 		"oS": 0,
 		"sC": 1
@@ -34,7 +34,7 @@
 	"\/player-vertical.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/player-vertical.html",
+		"oAP": "\/docs\/player-vertical.html",
 		"oF": 0
 		},
 	"\/player.coffee": {
@@ -42,7 +42,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "\/dist\/player.js",
+		"oAP": "\/docs\/player.js",
 		"oF": 0,
 		"oS": 0,
 		"sC": 1
@@ -50,7 +50,7 @@
 	"\/player.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/player.html",
+		"oAP": "\/docs\/player.html",
 		"oF": 0
 		},
 	"\/player.scss": {
@@ -61,7 +61,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dist\/player.css",
+		"oAP": "\/docs\/player.css",
 		"oF": 0,
 		"oS": 2,
 		"uL": 1
@@ -76,7 +76,7 @@
 	"displayValue": "blackenterprise",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 528727394
+	"lastBuiltDate": 528727636
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -332,7 +332,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 1,
-	"buildFolderName": "dist",
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2217,7 +2217,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/dist"
+	"websiteRelativeRoot": "\/docs"
 	},
 "settingsFileVersion": "3"
 }

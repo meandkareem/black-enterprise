@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Black Enterprise Horizontal Player</title>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//content.jwplatform.com/libraries/qNQzwmjr.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+
+  <link rel="stylesheet" href="./player.css">
+
+</head>
+
+<body>
+
+
+<div class="horizontal">
+  <div class="branding">
+    <img src="http://dev.blackenterprise.com/wp-content/themes/blackenterprise/images/masthead-logos/be-home-logo.png" alt="">
+  </div>
+  <div class="overflow-wrapper">
+  <div class="demo-wrapper">
+    <div id="player"></div>
+    <div id="js-playlists" class="playlists"></div>
+  </div>
+  </div>
+</div>
+
+
+
+<template id="js-playlist-template">
+	<div class="playlist-switcher">
+	{{#each this}}
+		<a class="js-playlist-link playlist-link{{#if @first}} is-active{{/if}}" href="#" data-feedid="{{feedid}}">{{title}}</a>
+	{{/each}}
+	</div>
+	{{#each this}}
+	<div class="js-playlist playlist-container{{#if @first}} is-active{{/if}}" data-feedid="{{feedid}}">
+		<ul class="playlist">
+		{{#each playlist}}
+			<li>
+				<a class="js-video-link playlist-item" href="{{link}}" data-mediaid="{{mediaid}}">
+					<img src="{{image}}" alt="{{title}}">
+					<span>{{title}}</span>
+				</a>
+			</li>
+		{{/each}}
+		</ul>
+	</div>
+	{{/each}}
+</template>
+
+<script src="player.js"></script>
+
+</body>
+
+</html>
